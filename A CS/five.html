@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Five</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+	.four-w{
+		height: auto;
+		width: 100%;
+	}
+		.four{
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			width: 62%;
+			margin-right: auto;
+			margin-left: auto;
+			margin-top: 100px;
+			margin-bottom: 52px;
+		}
+		.four h3{
+			font-size: 18px;
+			font-weight: 400;
+			color: #464646; 
+			cursor: pointer;
+			margin-right: 35px;
+		}
+		.work{
+			width: 100%; 
+			height: auto;
+		}
+		.work-f{
+			display: flex;
+			justify-content: center; 
+			width: 62.3%;
+			margin: auto;
+		}
+		.work-f1{
+			width: 65%;
+ 			margin-right: 23px; 
+			position: relative;
+		}
+		.work-f1a{
+			width: 100%;
+			background-color: #FCFAFA;
+			padding: 40px 30px;
+		}
+		
+		.work-f1a img{
+			width: 100%;
+			cursor: pointer;
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+		       
+		.work-f1a h2{
+			font-size: 40px;
+			font-weight: 400; 
+			padding-bottom: 25px;
+			line-height: 48px;
+		}
+		.work-f1a p{
+			font-size: 18px;
+			font-weight: 400;
+			color: #464646;
+			line-height: 28px; 
+		}
+		.work-f1a h3{
+			font-style: italic;
+			font-size: 24px;
+			font-weight: 400;
+			line-height: 36px;
+			border-left: 2px solid #000;
+			padding-left: 18px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			margin: 28px 0px;
+			color: #464646;
+		}
+		.work-f1a blockquote{
+			font-size: 18px;
+			font-weight: 700;
+			margin-top: 25px;
+			margin-bottom: 25px;
+			line-height: 27px;
+		}
+		#second{
+			padding-bottom: 28px;
+		}
+		.work-fs{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding-bottom: 10px;
+		}
+		.work-fs i{
+			font-size: 17.5px;
+			font-weight: 400;
+			margin-right: 26px;
+			margin-left: 8px;
+		}
+		.work-fs i:hover{
+			color: #116dff;
+			cursor: pointer;
+		}
+		.work-fs h6{
+			font-size: 14px;
+			line-height: 21px;
+			font-weight: 400;
+			cursor: pointer;
+		}
+		.rec-f{
+			margin-top: 40px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 30px;
+		}
+		.rec-f h3{
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 29px;
+			color: #464646;
+		}
+		.rec-f h5{
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 29px;
+			cursor: pointer;
+		}
+		.rec-f2{
+			width: 76%;
+			margin-right: auto;
+			background-color: #FCFAFA;
+		}
+		.rec-f2 h4{
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 29px;
+			color: #464646;
+			padding-top: 19px;
+			padding-left: 26px;
+			cursor: pointer;
+			padding-bottom: 47px;
+		}
+		.com{
+			width: 100%;
+			background-color: #FCFAFA;
+			padding: 19px 30px 30px 30px;
+			text-align: center;
+			margin-top: 40px;
+			margin-bottom: 20px;
+		}
+		.com h4{
+			font-size: 20px;
+			font-weight: 400;
+			text-align: left;
+			line-height: 28px;
+			padding-bottom: 6px;
+		}
+		.com p{
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px; 
+      padding-top: 19px;
+		}
+		.com blockquote{
+       font-size: 16px;
+      font-weight: 400;
+      line-height: 24px; 
+      color: #757575;
+      padding-bottom: 12px;
+		}
+		.com button{
+			border: none;
+			background-color: #000;
+			color: #fff; 
+			font-size: 16px;
+			font-weight: 400;
+			padding: 12px 22px;
+			margin-top: 12px;
+			margin-bottom: 17.5px;
+			cursor: pointer;
+			transition: 0.3s;
+		}
+		.com button:hover{
+			opacity: 0.7;
+		}
+		.work-f2{ 
+			width: 35%;
+			height: 100%;
+			background-color: #FCFAFA; 
+			padding: 30px 18px 20px 20px;
+		}
+		.work-f2 img{
+			width: 100%;
+		}
+		.work-f2 h2{
+			padding-top: 36px;
+			padding-bottom: 10px;
+			font-size: 23px;
+			font-weight: 400;
+		}
+		.work-f2 p{
+			padding-top: 10px; 
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 25px;
+			color: #464646;
+		}
+		.right{
+			margin-top: 28px;
+			margin-bottom: 38px;
+		}
+		.right i{
+			font-size: 17.5px;
+			font-weight: 400;
+			margin-right: 23px; 
+		}
+		.right i:hover{
+			color: #116dff;
+			cursor: pointer;
+		}
+		.work-f2 input{
+			border-top: none;
+			border-right: none;
+			border-left: none;
+			width: 100%;
+			font-size: 18px;
+			outline: none;  
+			padding-bottom: 2px;
+			border-bottom: 1px solid #000;
+			background-color: transparent;
+		}
+		.work-f2 input:hover{
+			padding-bottom: 1px;
+			border-bottom: 2px solid #000;
+		}
+		.work-f2 button{
+			width: 100%;
+			padding: 17.5px 20px;
+			text-align: center;
+			background-color: #000;
+			color: #fff;
+			font-size: 16px;
+			font-weight: 400;
+			border: none;
+			outline: none;
+			margin-top: 30px;
+			margin-bottom: 53px;
+			transition: 0.3s;
+			cursor: pointer;
+		}
+		.work-f2 button:hover{
+			background-color: transparent;
+			color: #000;
+		}
+		#top{
+			position: absolute;
+			top: 40px;
+			right: 40px;
+		}
+		.rec img{
+			width: 100%;
+			cursor: pointer; 
+		}
+		.line2{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	height: 0.5px;
+	margin-bottom: 18px;
+	margin-top: 10px;
+	background-color: #CAC8C8; 
+}
+.hidden{
+	position: relative;
+}
+.hidden strong{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 11px;
+	letter-spacing: 0.3px;
+	background-color: red;
+	padding: 0px 5px 5px 5px;
+	border-radius: 4px;
+	cursor: pointer;
+	color: #fff;
+	display: none;
+}
+.hidden strong i{
+	font-size: 15px;
+	padding-top: 4px;
+	padding-right: 3.5px;
+}
+#sink2{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background-color: #fff;
+	color: #000;
+	padding: 8px;
+	border-radius: 50%;
+	font-size: 12px;
+	cursor: pointer;
+	font-weight: lighter; 
+	display: none;
+}
+.hidden:hover #sink2{
+  display: block;
+}
+.hidden:hover strong{
+  display: block;
+} 
+.pic{
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+	position: fixed; 
+	top: 0%;
+	display: none;
+}
+.pic-f{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+.pic-f1 i{
+	font-size: 30px; 
+	cursor: pointer;
+	position: absolute;
+	top: 18px;
+	left: 44px;
+}
+.pic-f2 img{
+	width: 30px; 
+	cursor: pointer; 
+	position: absolute;
+	top: 18px;
+	right: 44px;
+}
+.pic-img img{
+	width: 26%; 
+	height: 60%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1100px){
+.work-f{  
+			width: 89%; 
+		}
+		.work-f1{
+			width: 100%;
+ 			margin-right: 23px; 
+			position: relative;
+		}
+		.work-f1a{
+			width: 100%;
+			background-color: #FCFAFA;
+			padding: 40px 30px;
+		}
+		.four{ 
+			width: 89%; 
+		}
+}
+
+@media(max-width:900px){
+	.work-f{  
+			width: 89%;
+			display: block; 
+		}
+		.work-f2{ 
+			width: 50%; 
+			margin-bottom: 30px;
+		}
+}
+
+@media(max-width: 710px){
+		.four h3{
+			font-size: 15px; 
+			margin-right: 15px;
+		}
+		.work-f1a h2{
+			font-size: 22px; 
+			line-height: 29px;
+		}
+		.work-f1a p{
+			font-size: 16px; 
+			line-height: 22px; 
+		}
+		.work-f1a h3{ 
+			font-size: 20px; 
+			line-height: 26px;
+			border-left: 2px solid #000; 
+		}
+		.work-f1a blockquote{
+			font-size: 16px; 
+			line-height: 22px;
+		}
+		#top{
+			position: absolute;
+			top: 45px;
+			right: 20px;
+		}
+		.work-fs i{
+			font-size: 15px; 
+			margin-right: 10px;
+			margin-left: 4px;
+		}
+		.work-f2{ 
+			width: 100%; 
+		} 
+		.work-f2 h2{ 
+			font-size: 20px; 
+		}
+		.work-f2 p{  
+			font-size: 15px; 
+			line-height: 22px; 
+		}
+		.right{
+			margin-top: 25px;
+			margin-bottom: 25px;
+		}
+		.right i{
+			font-size: 15px; 
+			margin-right: 15px; 
+		} 
+		.work-f2 input{ 
+			font-size: 15px; 
+		}
+}
+
+
+
+
+
+
+
+
+	</style>
+</head>
+<body>
+	<div class="main">
+
+		<div class="main-f">
+		  <div class="main-f1">
+		  	<h1 onclick="window.location.href='index.html';">Shohel Akhter</h1>
+		  	<p onclick="window.location.href='index.html';">Your Productivity Guru</p>
+		  </div>
+		  <div class="main-f2">
+		  	<p id="btn" onclick="show()">Subscribe</p>
+		  	<p id="btn2" onclick="show2()">Contact</p>
+		  	<i class="fa fa-search"></i>
+		  	<input type="text" placeholder="Search...">
+		  </div>
+		</div>
+
+ </div>
+
+<div class="four-w">
+<div class="four">
+	<h3 onclick="window.location.href='index.html';">All Posts</h3>
+	<h3 onclick="window.location.href='motivation.html';">Motivation</h3>
+	<h3 onclick="window.location.href='success.html';">Success</h3>
+	<h3 onclick="window.location.href='self.html';">Self Improvement</h3>
+</div>
+</div>
+
+<div class="work">
+	<div class="work-f">
+
+		<div class="work-f1">
+
+			<div class="work-f1a">
+			<h2>3 Things the most resilient people do every day</h2>
+			<i class="fa fa-ellipsis-v" id="top"></i>
+
+			<p>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading.</p>
+      
+      <div class="hidden">
+		<img src="six.webp" onclick="show4()">  
+			<strong id="sink"><i class="fa fa-pinterest"></i> Save</strong>
+    <h5 id="sink2"><i class="fa fa-expand" onclick="show4()"></i></h5>
+		</div>
+
+			<p>Welcome to your blog post. Use this space to connect with your readers and potential customers in a way that’s current and interesting. Think of it as an ongoing conversation where you can share updates about business, trends, news, and more. </p>
+			<h3>Do you have a design in mind for your blog? Whether you prefer a trendy postcard look or you’re going for a more editorial style blog - there’s a stunning layout for everyone.</h3>
+			<p>You’ll be posting loads of engaging content, so be sure to keep your blog organized with Categories that also allow visitors to explore more of what interests them.</p>
+			<blockquote>Create Relevant Content</blockquote>
+			<p id="second">Writing a blog is a great way to position yourself as an authority in your field and captivate your readers’ attention. Do you want to improve your site’s SEO ranking? Consider topics that focus on relevant keywords and relate back to your website or business. You can also add hashtags (#vacation #dream #summer) throughout your posts to reach more people, and help visitors search for relevant content.</p>
+			<p id="second">Blogging gives your site a voice, so let your business’ personality shine through. Choose a great image to feature in your post or add a video for extra engagement. Are you ready to get started? Simply create a new post now.</p>
+
+			<hr class="line2">
+
+<div class="work-fs">
+	<div>
+		<i class="fa fa-facebook" onclick="window.open('https://www.facebook.com/')"></i>
+
+	   <i class="fa fa-twitter" onclick="window.open('https://twitter.com/')"></i>
+
+	   <i class="fa fa-linkedin" onclick="window.open('https://www.linkedin.com/')"></i>
+      
+     <i class="fa fa-link" onclick="window.open('https://www.linkedin.com/')"></i>
+
+	</div>
+	<div>
+		<h6 onclick="window.location.href='self.html';">Self Improvement</h6>
+	</div>
+</div>
+</div>
+
+<div class="rec">
+
+	<div class="rec-f">
+		<div>
+		<h3>Recent Posts</h3>
+	</div>
+		<div>
+			<h5 onclick="window.location.href='index.html';">See All</h5>
+		</div>
+	</div>
+	<div class="rec-f2">
+<img src="three.webp" onclick="window.location.href='three.html';">
+<h4 onclick="window.location.href='three.html';">Clues you should stop being a people pleaser</h4>
+</div>
+</div>
+
+
+<div class="com">
+	<h4>Comments</h4>
+	<hr class="line2">
+	<p>Couldn’t Load Comments</p>
+	<blockquote>It looks like there was a technical problem. Try reconnecting or refreshing the page.</blockquote>
+	<button type="btn">Refresh</button>
+</div>
+
+		</div>
+
+
+
+
+
+
+		<div class="work-f2">
+			<img src="man.webp">
+
+			<h2>Hi, I'm Shohel Akhter</h2>
+
+			<p>I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.</p>
+
+<div class="right">
+		<i class="fa fa-facebook" onclick="window.open('https://www.facebook.com/')"></i>
+
+	   <i class="fa fa-twitter" onclick="window.open('https://twitter.com/')"></i>
+
+	   <i class="fa fa-linkedin" onclick="window.open('https://www.linkedin.com/')"></i>
+      
+     <i class="fa fa-instagram" onclick="window.open('https://www.instagram.com/')"></i>
+
+	</div>
+<h2>Creativity.Production.Vision</h2>
+
+<p>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+
+<h2>Subscribe</h2>
+<p>Name</p>
+<input type="text" name="">
+<p>Email *</p>
+<input type="text" name="">
+<br>
+<button  >Subscribe</button>
+		</div> 
+
+
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="foot">
+	<p>@2021 by Shohel Akhtar. Proudly created by Me</p>
+</div>
+
+
+
+
+
+<div class="sub" id="Subscribe">
+	<div class="sub-w">
+		<div class="sub-c">
+			<img src="cross.png" onclick="hide()">
+		<h1>Subscribe</h1>
+		<p>The best decision you’ll make today.</p>
+		<blockquote>Email *</blockquote>
+		<input type="text"><br>
+		<button type="btn" onclick="myFunction()">Submit</button>
+		<h6 id="demo"></h6>
+	</div>
+	</div>
+</div>
+
+
+<div class="con" id="Contact">
+	<div class="con-w">
+
+		<div class="con-c">
+			<img src="cross.png" onclick="hide2()">
+		<h1>Contact</h1>
+       <div class="con-8">
+		<div class="con-f">
+			<div>
+			<p>First Name</p>
+			<input type="text">
+		</div>
+		<div>
+			<p>Last Name</p>
+			<input type="text">
+		</div>
+		</div>
+		<div class="con-f">
+			<div>
+			<p>Email *</p>
+			<input type="text">
+		</div>
+		<div>
+			<p>Subject</p>
+			<input type="text">
+		</div>
+		</div>
+
+		<p>Leave me a message...</p> 
+		<textarea></textarea>
+		<br>
+		 
+		<button type="btn" onclick="myFunction2()">Submit</button>
+		<h6 id="demo2"></h6>
+	</div>
+</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="pic" id="pic">
+	<div class="pic-f">
+
+		<div class="pic-f1">
+			<i class="fa fa-expand"></i>
+		</div>
+		<div class="pic-f2">
+			<img src="cross.png" onclick="hide4()">
+		</div>
+	</div>
+<div class="pic-img">
+	<img src="six.webp">
+</div>
+</div>
+
+
+
+
+
+<script type="text/javascript">
+	
+var btn = document.getElementById('btn');
+var btn2 = document.getElementById('btn2');
+var sub = document.getElementById('Subscribe');
+var con = document.getElementById('Contact'); 
+var pic = document.getElementById('pic');
+
+
+function hide(){
+	sub.style.display = "none"; 
+}
+function hide2(){ 
+	con.style.display = "none";
+} 
+function hide4(){
+	pic.style.display = "none"; 
+}
+
+
+function show(){
+	sub.style.display = "block";
+}
+function show2(){
+	con.style.display = "block";
+}
+function show4(){
+	pic.style.display = "block";
+}
+
+
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Thanks for Submitting!!";
+};
+
+
+function hideDiv(){
+	document.getElementById('demo').style.visibility = "hidden";
+}
+setTimeout("hideDiv()", 7000);
+
+
+function myFunction2() {
+  document.getElementById("demo2").innerHTML = "Thanks for Submitting!!";
+};
+
+
+function hideDiv(){
+	document.getElementById('demo2').style.visibility = "hidden";
+}
+setTimeout("hideDiv()", 7000);
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
